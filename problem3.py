@@ -1,2 +1,14 @@
-a = input ("Enter the value of a:")
-print(type(a))
+name = "Anamika is a good girl "
+
+print(name.find("  ")) 
+
+
+
+name = "Anamika is a good girl "
+
+print(name.find("girl")) 
+
+
+name = "Anamika is a    good girl "
+
+print(name.find("   ")) 

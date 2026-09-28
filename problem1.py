@@ -1,5 +1,3 @@
-a = 34
+name = input("Enter your name:")
 
-b = 6
-
-print(a+b)
+print(f"Good Afternoon, {name}")

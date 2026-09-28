@@ -1,4 +1,3 @@
-a = int(input("Enter number 1: "))
-b = int(input("Enter number 2: "))
+name = "Anamika is a good girl"
 
-print("a is greater than b is",a>b)
+print(name.replace("  ","")) 

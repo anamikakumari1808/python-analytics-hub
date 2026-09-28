@@ -1,5 +1,5 @@
-a = 34
+letter = ''' Dear <|Name|>,
+ You are selected!
+ <|Date|> '''
 
-b = 5
-
-print("Remainder when a is divided by b is ",a % b)
+print(letter.replace("<|Name|>", "Anamika").replace("<|Date|>","24 October 2025"))
