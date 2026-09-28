@@ -1,10 +1,4 @@
-import os
+a = int(input("Enter number 1: "))
+b = int(input("Enter number 2: "))
 
-# Select the directory whose Content you want to list
-directory_path = "/"
-
-# Use the os module to list the directory Content
-Contents = os.listdir(directory_path)
-
-
-print(Contents)
+print("The average of these two number is ",(a+b)/2)
