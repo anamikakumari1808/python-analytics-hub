@@ -1,14 +1,3 @@
-name = "Anamika is a good girl "
+a = (34, 234, "Harry")
 
-print(name.find("  ")) 
-
-
-
-name = "Anamika is a good girl "
-
-print(name.find("girl")) 
-
-
-name = "Anamika is a    good girl "
-
-print(name.find("   ")) 
+a[2] = "Larry"
